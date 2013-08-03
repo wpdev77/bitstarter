@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var fs=require('fs');
-var buf=require('Buffer');
 
 app.use(express.logger());
 
